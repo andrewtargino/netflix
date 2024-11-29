@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica
+}
+.container-header{
+    margin: 0 auto;
+    background-color: black;
+    margin-bottom: -35px;  
+}
+.itens-header{
+    display: flex;
+    margin-left: 60px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 78%;
+    gap: 10px;
+}
+.icon-netflix{
+    display: flex;
+    margin-top: -25px;
+}
+.idioma{
+    display: flex;
+    color: white;
+    position: relative;
+    margin-top: 30px;
+    font-size: 7px;
+    border: 1px solid white;
+    height: 30px;
+    width: 110px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    display: flex;
+    color: rgb(0, 0, 0);
+    position: relative;
+    margin-top: 30px;
+    font-size: 7px;
+    border: 1px solid white;
+    height: 30px;
+    width: 70px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.login:hover{
+    background-color: rgb(170, 170, 170);
+    border-color: rgb(170, 170, 170);
+}
+.movies{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(255, 14, 14, 0.445) 0px 22px 70px 4px;
+}
+.movies-foto{
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(255, 14, 14, 0.445) 0px 22px 70px 4px;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.562);
+}
+.container-meio{ 
+    margin:0 auto;
+    background-color: black;
+    height: 2000px;
+}
+.assinatura{
+    display: flex;
+    justify-content: center;
+    color: rgb(194, 194, 194);
+    font-size: 10px;
+    padding-top: 40px;
+}
+.compra{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 15px;
+}
+.botao-email{
+    display: flex;
+    width: 340px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    color: rgb(148, 148, 148);
+    align-items:center;
+    font-size: 11px;
+    padding-left: 15px;
+}
+.vamos-la{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    background-color: red;
+}
+.vamos-la:hover{
+    background-color: rgb(172, 0, 0);
+}
+.retangulo-saiba-mais{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.saiba-mais{
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+    color: white;
+    width: 1440px;
+    height: 80px;
+    border-radius: 15px;
+    background-color: rgb(53, 53, 53);
+    font-size: 20px;
+    padding-top: 3px;
+    border: 2px solid rgb(85, 85, 85);
+}
+.saiba-mais:hover{
+    background-color: rgba(117, 117, 117, 0.466);
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: ease-in-out 0.5s;
+}
+.saiba-mais-lista{
+    list-style-type: none;
+    gap: 2px;
+}
+.descricao-saiba-mais{
+    font-size: 13px;
+    color: rgb(168, 168, 168);
+}
+.botao-saiba-mais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    width: 95px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 8px;
+    color: white;
+    margin-left: -140px;
+    margin-top: 25px;
+    background-color: rgba(37, 37, 37, 0.877);
+}
+.botao-saiba-mais:hover{
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: ease-in-out 0.5s;
+}

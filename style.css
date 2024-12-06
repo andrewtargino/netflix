@@ -1,12 +1,19 @@
+@font-face {
+    font-family: 'ArialBlk';
+    src: url('./ariblk.ttf');
+}
+body{
+    font-family: 'ArialBlk';
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Helvetica
 }
 .container-header{
     margin: 0 auto;
-    background-color: black;
+    background: rgb(82,82,82);
+    background: linear-gradient(0deg, rgb(20, 20, 20) 0%, rgb(41, 41, 41) 100%);
     margin-bottom: -35px;  
 }
 .itens-header{
@@ -17,12 +24,16 @@
     display: flex;
     flex-direction: row;
     position: relative;
-    left: 78%;
+    left: 77%;
     gap: 10px;
 }
 .icon-netflix{
     display: flex;
     margin-top: -25px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 1%;
 }
 .idioma{
     display: flex;
@@ -56,30 +67,29 @@
     border-color: rgb(170, 170, 170);
 }
 .movies{
-    background-color: rgb(0, 0, 0);
+    background: rgb(82,82,82);
+    background: linear-gradient(0deg, rgb(41, 41, 41) 0%, rgba(28,28,28,1) 100%);
     display: flex;
     justify-content: center;
-    box-shadow: rgba(255, 14, 14, 0.445) 0px 22px 70px 4px;
     height: 500px;
     position: relative;
 }
 .movies-texto{
     color: white;
     position: absolute;
-    top:270px;
+    top:190px;
     z-index: 60;
-    font-size: 30px;
+    font-size: 27px;
+    text-align: center;
 }
 .movies-foto{
     display: flex;
     justify-content: center;
-    box-shadow: rgba(255, 14, 14, 0.445) 0px 22px 70px 4px;
-    border-radius: 30px;
-    border: 2px solid rgba(255, 255, 255, 0.562);
 }
 .container-meio{ 
     margin:0 auto;
-    background-color: black;
+    background: rgb(82,82,82);
+    background: linear-gradient(0deg, rgb(58, 58, 58) 0%, rgb(41, 41, 41) 0%);
     height: 2000px;
 }
 .assinatura{

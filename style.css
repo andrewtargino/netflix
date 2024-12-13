@@ -1,10 +1,18 @@
+
 @font-face {
-    font-family: 'ArialBlk';
+    font-family: 'Arial';
+    src: url('./arial.ttf');
+}
+@font-face {
+    font-family: 'Fonte Grossa';
     src: url('./ariblk.ttf');
 }
+/* fontes globais */
 body{
-    font-family: 'ArialBlk';
+    font-family: 'Arial';
 }
+/*fontes locais com maior prioridade */ 
+
 *{
     margin: 0;
     padding: 0;
@@ -48,17 +56,46 @@ body{
     justify-content: center;
     align-items: center;
 }
-.mostrar{
-    height: 40px;
-    width: 120px;
-    background-color: white;
-    border-radius: 5px;
+.botaoidioma{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
 }
-.PT{
-    height: 20px;
+    
+/* remover altura e largura fixa aqui */
+.linguagens{
+    display: none;
+}
+/* remover altura e largura fixa aqui */
+.mostrar{
+    display: block;
+    position: absolute;
     width: 120px;
+    height: 50px;
+    padding: 5px;
+    left: -10px;
     background-color: rgb(173, 173, 173);
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px
+}
+/* ajustar duas linhas */
+.PT{
+    height: 20px;
+    background-color: rgb(173, 173, 173);
+    border-radius: 5px;
+    text-align: left;
+    border: none;
+    padding-left: 4px;
+}
+.PT:hover{
+    height: 20px;
+    background-color: rgb(23, 65, 201);
+    border-radius: 5px;
+    text-align: left;
+    border: none;
+    color: white;
 }
 .login{
     display: flex;
@@ -93,6 +130,9 @@ body{
     z-index: 60;
     font-size: 27px;
     text-align: center;
+}
+#movies1, #movies2, #movies{
+    font-family: 'Fonte Grossa';
 }
 .movies-foto{
     display: flex;
@@ -560,3 +600,4 @@ body{
     list-style-type: none;
     gap:10px;
 }
+

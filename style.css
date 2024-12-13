@@ -35,7 +35,7 @@ body{
     position: relative;
     left: 1%;
 }
-.idioma{
+.idioma{    
     display: flex;
     color: white;
     position: relative;
@@ -47,6 +47,18 @@ body{
     border-radius: 30px;
     justify-content: center;
     align-items: center;
+}
+.mostrar{
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    border-radius: 5px;
+}
+.PT{
+    height: 20px;
+    width: 120px;
+    background-color: rgb(173, 173, 173);
+    border-radius: 5px;
 }
 .login{
     display: flex;
@@ -90,7 +102,7 @@ body{
     margin:0 auto;
     background: rgb(82,82,82);
     background: linear-gradient(0deg, rgb(58, 58, 58) 0%, rgb(41, 41, 41) 0%);
-    height: 2000px;
+    height: 280px;
 }
 .assinatura{
     display: flex;
@@ -182,4 +194,369 @@ body{
     cursor: pointer;
     transform: scale(1.03);
     transition: ease-in-out 0.5s;
+}
+.container-filmes{
+    margin:0 auto;
+    background: rgb(82,82,82);
+    background: linear-gradient(0deg, rgb(58, 58, 58) 0%, rgb(41, 41, 41) 0%);
+    height: 700px;
+}
+.em-alta{
+    display: flex;
+    color: white;
+    padding-left: 250px;    
+}
+.filmes-catalogo{
+    position: relative;
+    top:50px;
+    left: -100px;
+    border-radius: 20px;
+}
+.lista-em-alta{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.filmes-catalogo:hover{
+    margin-bottom: 0.5px;
+    transform: translateY(10px);
+}
+.seta-direita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1640px;
+    top:-120px;
+    height: 80px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: rgba(126, 126, 126, 0.596);
+    color: rgba(255, 255, 255, 0.418);
+}
+.seta-direita:hover{
+    background-color: rgb(56, 56, 56);
+}
+.so-na-netflix{
+    display: flex;
+    color: white;
+    padding-left: 250px;
+}
+.lista-so-na-netflix{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    position: relative;
+    right: 65px;
+}
+.container-motivos{
+    margin:0 auto;
+    background: rgb(82,82,82);
+    background: linear-gradient(0deg, rgb(58, 58, 58) 0%, rgb(41, 41, 41) 0%);
+    height: 200px;
+}
+.titulo-motivos{
+    display: flex;
+    color: white;
+    padding-left: 250px;  
+    padding-bottom: 15px;
+}
+.cards-motivos{
+    display: flex;
+    padding-left: 250px;
+    gap:10px;
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    background-color: rgb(53, 53, 53);
+    border: 2px solid rgb(85, 85, 85);
+    height: 100px;
+    width: 350px;
+}
+.card2{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    background-color: rgb(53, 53, 53);
+    border: 2px solid rgb(85, 85, 85);
+    height: 100px;
+    width: 350px;
+}
+.card3{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    background-color: rgb(53, 53, 53);
+    border: 2px solid rgb(85, 85, 85);
+    height: 100px;
+    width: 350px;
+}
+.card4{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    background-color: rgb(53, 53, 53);
+    border: 2px solid rgb(85, 85, 85);
+    height: 100px;
+    width: 350px;
+}
+.texto-cards{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 15px;
+    color: white;
+    font-size: 14px;
+}
+.img-card1{
+    display: flex;
+    position: relative;
+    top: 50px;
+    right: 2px;
+}
+.img-card2{
+    display: flex;
+    position: relative;
+    top: 57px;
+    right: 18px;
+}
+.img-card3{
+    display: flex;
+    position: relative;
+    top: 55px;
+    left: 78px;
+}
+.img-card4{
+    display: flex;
+    position: relative;
+    top: 53px;
+    left: 40px;
+}
+.container-faq{
+    margin:0 auto;
+    background: rgb(82,82,82);
+    background: linear-gradient(0deg, rgb(58, 58, 58) 0%, rgb(41, 41, 41) 0%);
+    height: 600px;
+}
+.perguntas-titulo{
+    display: flex;
+    color: white;
+    padding-left: 250px; 
+}
+.box-perguntas{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.perguntas-box-1{
+    display: flex;
+    position: relative;
+    left: 250px;
+    top: 15px;
+    width: 1440px;
+    height: 80px;
+    border-radius: 15px;
+    border: 2px solid rgb(85, 85, 85);
+    background-color: rgb(53, 53, 53);
+    gap: 30px;
+}
+.pergunta-texto-1{
+    display: flex;
+    position: relative;
+    left: 30px;
+    color: white;
+    align-items: center;
+    font-size: 12px;
+}
+.perguntas-box-2{
+    display: flex;
+    position: relative;
+    left: 250px;
+    top: 15px;
+    width: 1440px;
+    height: 80px;
+    border-radius: 15px;
+    border: 2px solid rgb(85, 85, 85);
+    background-color: rgb(53, 53, 53);
+}
+.pergunta-texto-2{
+    display: flex;
+    position: relative;
+    left: 30px;
+    color: white;
+    align-items: center;
+    font-size: 12px;
+}
+.perguntas-box-3{
+    display: flex;
+    position: relative;
+    left: 250px;
+    top: 15px;
+    width: 1440px;
+    height: 80px;
+    border-radius: 15px;
+    border: 2px solid rgb(85, 85, 85);
+    background-color: rgb(53, 53, 53);
+}
+.pergunta-texto-3{
+    display: flex;
+    position: relative;
+    left: 30px;
+    color: white;
+    align-items: center;
+    font-size: 12px;
+}
+.perguntas-box-4{
+    display: flex;
+    position: relative;
+    left: 250px;
+    top: 15px;
+    width: 1440px;
+    height: 80px;
+    border-radius: 15px;
+    border: 2px solid rgb(85, 85, 85);
+    background-color: rgb(53, 53, 53);
+}
+.pergunta-texto-4{
+    display: flex;
+    position: relative;
+    left: 30px;
+    color: white;
+    align-items: center;
+    font-size: 12px;
+}
+.perguntas-box-5{
+    display: flex;
+    position: relative;
+    left: 250px;
+    top: 15px;
+    width: 1440px;
+    height: 80px;
+    border-radius: 15px;
+    border: 2px solid rgb(85, 85, 85);
+    background-color: rgb(53, 53, 53);
+}
+.pergunta-texto-5{
+    display: flex;
+    position: relative;
+    left: 30px;
+    color: white;
+    align-items: center;
+    font-size: 12px;
+}
+.perguntas-box-6{
+    display: flex;
+    position: relative;
+    left: 250px;
+    top: 15px;
+    width: 1440px;
+    height: 80px;
+    border-radius: 15px;
+    border: 2px solid rgb(85, 85, 85);
+    background-color: rgb(53, 53, 53);
+}
+.pergunta-texto-6{
+    display: flex;
+    position: relative;
+    left: 30px;
+    color: white;
+    align-items: center;
+    font-size: 12px;
+}
+.perguntas-box-1:hover,.perguntas-box-2:hover,.perguntas-box-3:hover,.perguntas-box-4:hover,.perguntas-box-5:hover,.perguntas-box-6:hover{
+    background-color: rgba(15, 15, 15, 0.466);
+    cursor: pointer;
+}
+.simbolo-mais{
+    display: flex;
+    position: absolute;
+    left: 1360px;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.658);
+}
+.container-end{
+    margin:0 auto;
+    background: rgb(82,82,82);
+    background: linear-gradient(0deg, rgb(58, 58, 58) 0%, rgb(41, 41, 41) 0%);
+    height: 400px;
+}
+.botao-vamos-la{
+    display: flex;
+    position: relative;
+    top:30px;
+    left: 885px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 30px;
+    width: 130px;
+    height: 40px;
+    background-color: red;
+    font-size: 14px;
+}
+.botao-vamos-la:hover{
+    background-color: rgb(192, 0, 0);
+}
+.descricao-final{
+    display: flex;
+    position: relative;
+    top: 40px;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+}
+.roda-pe{
+    display: flex;
+    position: relative;
+    color: rgba(255, 255, 255, 0.521);
+    font-size: 15px;
+    top: 80px;
+    justify-content: left;
+    margin-left: 250px;
+}
+.lista-esquerda{
+    display: flex;
+    justify-content: left;
+    margin-top: 130px;
+    margin-left: 250px;
+    flex-direction: column;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.521);
+    list-style-type: none;
+    gap:10px;
+}
+.lista-esquerda-2{
+    display: flex;
+    justify-content: left;
+    margin-top: -130px;
+    margin-left: 550px;
+    flex-direction: column;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.521);
+    list-style-type: none;
+    gap:10px;
+}
+.lista-direita{
+    display: flex;
+    justify-content: right;
+    margin-top: -105px;
+    margin-left: 800px;
+    flex-direction: column;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.521);
+    list-style-type: none;
+    gap:10px;
+}
+.lista-direita-2{
+    display: flex;
+    justify-content: right;
+    margin-top: -105px;
+    margin-left: 1080px;
+    flex-direction: column;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.521);
+    list-style-type: none;
+    gap:10px;
 }
